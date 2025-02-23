@@ -46,17 +46,18 @@ body{
 }
 .text>h1{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 50px;
+    font-size: 40px;
     font-weight: lighter;
 }
 .text>h3{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 50px;
+    font-size: 40px;
     font-weight: lighter;
 }
 .catchy>h2{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bolder;
+    word-spacing: 5px;
     text-align: center;
     font-style: italic;
     padding: 30px;
@@ -65,13 +66,13 @@ hr{
     border: 1px rgb(107, 86, 86) dashed;
 }
 .About{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
     padding: 20px;      
 }
 p>span{
     font-weight: bolder;
-    font-size: 40px;
+    font-size: 30px;
     font-style: normal;
     margin-left: 30px;
 }
@@ -113,7 +114,7 @@ p>span{
     margin: 10px;
 }
 .backexp>dl>dd{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .pictitl>h2{
@@ -160,7 +161,7 @@ p>span{
     margin-bottom: 10px;
 }
 .info>p{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .footer{
     display: flex;
@@ -175,8 +176,8 @@ p>span{
 }
 .resum>h3{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: bolder;
-    font-size: 25px;
+    font-weight: bold;
+    font-size: 20px;
     margin-bottom: 15px;
 }
 
@@ -200,9 +201,9 @@ button:hover{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: bold;
-    font-size: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    font-size: 7px;
 }
 .contact{
     margin: 10px;
